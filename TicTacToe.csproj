@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Elements\Grid1.png" />
+    <None Remove="Elements\O15.png" />
+    <None Remove="Elements\X15.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Elements\Grid1.png" />
+    <Resource Include="Elements\O15.png" />
+    <Resource Include="Elements\X15.png" />
+  </ItemGroup>
+
+</Project>
